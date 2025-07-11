@@ -29,7 +29,7 @@ const CarbonForm = () => {
   };
 
   return (
-    <div className="max-w-xl mx-auto bg-white shadow p-6 rounded">
+    <div id="calculator" className="max-w-xl mx-auto bg-white shadow p-6 rounded">
       <h2 className="text-xl font-bold mb-4">Estimate Your Carbon Footprint</h2>
       <form onSubmit={handleSubmit} className="space-y-3">
         <input name="electricityKwh" placeholder="Electricity (kWh/month)" type="number" onChange={handleChange} className="w-full p-2 border rounded" />
